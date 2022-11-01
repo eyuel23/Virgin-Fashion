@@ -3,14 +3,14 @@ import heart from "../images/heart.svg";
 import Image from "next/image";
 export default function Navigation() {
   return (
-    <div>
-      <nav className="flex justify-between text-white px-[2rem] py-[1rem]">
-        <h1 className="text-[40px] font-didot">Virgin</h1>
-        <ul className="flex items-center">
-          <li className="bg-black mr-[1rem]">
+    <div className="border-b-2  border-secondary">
+      <nav className="flex justify-between text-white px-[2rem] py-[.7rem]">
+        <p className="text-[40px] text-secondary font-didot">Virgin</p>
+        <ul className="flex items-center gap-[.7rem]">
+          <li className="bg-black">
             <Image src={cart} />
           </li>
-          <li calssName="border-solid"></li>
+          <div className="h-[1.7rem] border-r-2  border-white"></div>
           <li>
             <Image src={heart} />
           </li>
