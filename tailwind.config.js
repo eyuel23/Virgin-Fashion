@@ -9,6 +9,9 @@ module.exports = {
       white: "#ffffff",
       primary: "#897171",
     },
+    fontFamily: {
+      didot: "didot",
+    },
     extend: {},
   },
   plugins: [],
