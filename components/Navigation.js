@@ -8,11 +8,11 @@ export default function Navigation() {
         <p className="text-[40px] text-secondary font-didot">Virgin</p>
         <ul className="flex items-center gap-[.7rem]">
           <li className="bg-black">
-            <Image src={cart} />
+            <Image src={cart} alt="cart" />
           </li>
           <div className="h-[1.7rem] border-r-2  border-white"></div>
           <li>
-            <Image src={heart} />
+            <Image src={heart} alt="heart" />
           </li>
         </ul>
       </nav>
