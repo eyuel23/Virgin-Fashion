@@ -1,4 +1,5 @@
 import Head from "next/head";
+import CatagoriesPage from "../components/CatagoriesPage";
 import Hero from "../components/Hero";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         </Head>
       </div>
       <Hero />
+      <CatagoriesPage />
     </>
   );
 }
