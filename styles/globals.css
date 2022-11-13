@@ -24,3 +24,14 @@ html {
 body {
   box-sizing: border-box;
 }
+.hero {
+  background-image: linear-gradient(
+      90deg,
+      #594545 40.1%,
+      rgba(89, 69, 69, 0.46) 100%
+    ),
+    url(../images/background.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+}

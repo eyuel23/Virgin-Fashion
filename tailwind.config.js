@@ -27,6 +27,9 @@ module.exports = {
       light: "4.4px 8.8px 8.8px rgba(0,0, 0, 0.36)",
       image: " 3.6px 7.2px 7.2px rgba(0,0, 0, 0.36) ",
     },
+    backgroundImage: {
+      "hero-image": "url(/images/background.jpg)",
+    },
     extend: {},
   },
   plugins: [],

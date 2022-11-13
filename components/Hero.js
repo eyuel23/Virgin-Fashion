@@ -2,7 +2,7 @@ import Navigation from "./Navigation";
 
 export default function Hero() {
   return (
-    <div className="bg-primary h-screen flex flex-col justify-between">
+    <div className="hero bg-cover h-screen flex flex-col justify-between">
       <Navigation />
       <div className="">
         <h1 className="text-secondary text-8xl text-center font-bigCasion leading-snug ">
